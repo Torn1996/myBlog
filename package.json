@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build .",
+    "deploy": "node deploy.js"
+  },
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-plugin-cursor-effects": "^1.1.4",
+    "vuepress-theme-reco": "1.6.14"
+  },
+  "description": "",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.13"
+  }
+}
